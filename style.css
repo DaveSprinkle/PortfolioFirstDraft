@@ -1,0 +1,295 @@
+
+.header
+  {
+    width: 100%;
+    height: 150px;
+    background-color:rgb(0, 0, 0);
+    position:fixed;
+    left:0px;
+    top: 0px;
+  }
+
+.icon
+  {
+  display: inline-block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background: transparent;
+  height: 150px;
+  }
+
+.titleclass
+  {
+    display: inline-block;
+    font-size: 36px;
+    color: white;
+    margin-left:auto;
+    margin-right:auto;
+    position: relative;
+    left: 60px;
+    top: 0px;
+  }
+
+
+.carophotos
+{
+  height: "150px";
+}
+
+
+.topnav 
+  {
+    background-color: #333;
+    overflow: hidden;
+    text-align: right;
+    width: 100%;
+  }
+
+.topnav a 
+  {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 24px;
+  }
+
+.topnav a:hover 
+  {
+    background-color: #ddd;
+    color: black;
+  }
+
+.topnav a.active 
+  {
+    background-color: #e5ff00;
+    color: rgb(0, 0, 0);
+  }
+
+.smclass
+  {
+    position: absolute;
+    right: 10px;
+  }
+
+.bodycontent
+  {
+      text-align: center;
+      position: relative;
+      top: 150px;
+      background-color: rgb(255, 255, 255);
+      font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+  
+
+  .h2class
+  {
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 24px;
+    color:white;
+    position: relative;
+    left: 0px;
+    top: 250px;
+  }
+
+  .codetext
+  {
+    text-align: left;
+    color: white;
+  }
+
+.productpagetables
+{
+  text-align: center;
+  color: black;
+  border: black;
+  border-style: solid;
+  border-width: 0px, 3px, 3px, 0px;
+  background-color: wheat;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.reglartext
+  {
+    font-size: 18px;
+    position: relative;
+    left: 0px;
+    top: 10px;
+  }
+
+  .producttable
+  {
+    border-style: solid;
+    border-color: black;
+    background-color: rgb(255, 255, 255);
+    
+    border-width: 0px, 3px, 3px, 0px;
+    border-radius: 30px;
+    position: relative;
+    left: 0px;
+    top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+    color: black;
+  }
+
+.header1
+  {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    color: white;
+  }
+
+
+.headshot
+{
+  position: relative;
+  top: -100px;
+  right: -50rem;
+  margin-right: 10px;
+  box-shadow: -3px 10px 10px  rgba(0, 0, 0, 0.781);
+  overflow: hidden;
+  transform: rotate(15deg);
+}
+
+.projectcontainer
+{
+  width: 200px;
+}
+
+.item
+{
+  width: 200px;
+}
+
+.frontpagetable
+{
+  text-align: center;
+
+  position: relative;
+  top: -75px;
+  left: 00px;
+  width: 95%; 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.subtitle
+{
+  color:black;
+  position: relative;
+  top: 10px;
+}
+
+.developerfont
+{
+  position: relative;
+  top: -20px;
+  left: 3em;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 36px;
+}
+
+
+.characterheaders
+{
+  vertical-align: top;
+  text-align: center;
+}
+
+.character
+{
+  text-align: left;
+  padding-left: 2em;  
+}
+
+.tbody
+{
+  text-align: center;
+}
+
+.tdInfo
+{
+  vertical-align: text-top;
+}
+
+.solutionphoto
+{
+  padding: 15px;
+  width: 300px;
+  float: left;
+}
+
+.solutiontext
+{
+  padding: 15px;
+  float: right;
+  margin: 10px;
+}
+
+.solutionbody
+{
+  margin: 20px;
+  text-align: left;
+}
+
+.skillsborders
+{
+  padding-left: 1px;
+  background-color: whitesmoke;
+  margin-left: 10px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 5px;
+  box-shadow: -3px 10px 10px  rgba(0, 0, 0, 0.781);
+}
+
+
+.buttonmagic
+{
+
+  width:75px;
+  border-style: transparent;
+  border-width: 3px;
+  border-color: black;
+  border-radius: 50px;
+  box-shadow: -3px 10px 10px  rgba(0, 0, 0, 0.781);
+}
+
+.buttonsection
+{
+width:75px;
+
+}
+
+.button
+{
+width:75px;
+}
+
+
+.buttonmagic:grow
+{
+  transition: all .999s ease-in-out;
+}
+
+.buttonalignment
+{
+  width:600px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+.buttonmagic:hover
+{
+transform: scale(1.1);
+transition: all 2 ease-in-out;
+}
