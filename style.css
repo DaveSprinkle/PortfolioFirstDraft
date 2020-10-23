@@ -250,6 +250,17 @@
 
   } 
 
+  .resumeclass
+  {
+    position: absolute;
+    top: 2px;
+    right: 60px;
+    width: 50px;
+    border-radius: 5px;
+
+  } 
+
+
 
 .skillsborders
 {
