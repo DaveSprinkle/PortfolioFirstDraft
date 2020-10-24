@@ -1,24 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="HTML, CSS, C#, SQL, Software Developer, Communication, MS Office">
+  <meta name="author" content="Dave Sprinkle">
+  <meta name="industry" content="technology">
+  <title>Dave Sprinkle</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css"
+    integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
+    integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
-<body>
-<h1>About Me</h1>
 
-<img src="assets/Headshot.jpg" width = "300px" ALIGN="left" HSPACE="20px">
+<header class="header">
+  <img class="icon" src="assets/icon.jpg">
+  <h1 class="header1">Dave Sprinkle</h1> 
+  <p class="developerfont">softwareDeveloper</p>
+  <a href="https://www.linkedin.com/in/dave-sprinkle/" target="_blank"><img class="smclass" src="assets/LinkedIn.jpg"></a>
+  <a href="docs/Dave Sprinkle SD Resume.pdf" target="_blank"><img class="resumeclass" src="assets/Resume.jpg"></a>
 
-<p>When I was a kid, I was fascinated by computers.  My father was a “computer operator,” a job that doesn’t exist today since EVERYONE is a “computer operator.” I got to go into his work a few times and was captivated by the technology.  My passion grew from there, and by age 31, I was developing for front and back end at Boeing as a self-taught programmer.
-Even when I wasn’t at work, I coded for fun.  As an avid hockey fan, I developed a database that could reliably predict weekly player performance. Using that information, I astounded my hockey-watching friends with my “knowledge of the game.”  Don’t tell them!  
-After founding, launching, directing, and developing programming for an educational not-for-profit, I’m returning to the IT world in January after brushing up on the current languages and standards.  The passion from when I was young visiting my dad’s office has never left me.
-</p>
-<p>Specialties: Languages: C#, HTML, CSS, .NET, Git, SQL, Teams Automation</p>
-<p>Soft skills:  Communication, Intelligence, asking beautiful questions that lead to systems improvement.
-</p>
+</header>
 
 
 
+<body class="bodycontent">
+  
+  <img class="headshot" src="assets/HeadPortrait.jpg" width="200px">
+
+
+
+  <table class="frontpagetable">
+    <tr>
+      <td width="25%">
+
+        <!--GIANT MARKUP THAT DOES THE CAROUSEL-->
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+          <div class="carophotos">
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <div class="projectcontainer">
+                  <a href="solution1.html"><img src="assets/rsz_project_1.jpg" alt="Solution 1"></a>
+                </div>
+              </div>
+
+              <div class="item">
+                <div class="projectcontainer">
+                  <a href="solution2.html"><img src="assets/rsz_project_2.jpg" alt="Solution 2"></a>
+                </div>
+              </div>
+
+              <div class="item">
+                <div class="projectcontainer">
+                  <a href="solution3.html"><img src="assets/rsz_project_3.jpg" alt="Solution 3"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </td>
+      <div class="tbody">
+        <td width="25%" class="tdInfo">
+          <div class="skillsborders">
+            <h2 class="tbody">Values</h2>
+            <h3 class="character">
+              <ul>
+                <li>Creativity</li>
+                <li>Teamwork</li>
+                <li>Efficiency</li>
+                <li>User Experience</li>
+                <li>Lifelong learning</li>
+              </ul>
+            </h3>
+          </div>
+        </td>
+        <td width=25% class="tdInfo">
+          <div class="skillsborders">
+            <h2 class="tbody">Tech Skills</h2>
+            <h3 class="character">
+              <ul>
+                <li>C#</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>SQL</li>
+                <li>Bootstrap</li>
+              </ul>
+            </h3>
+          </div>
+
+        </td>
+        <td width="25%" class="tdInfo">
+          <div class="skillsborders">
+            <h2 class="tbody">Soft Skills</h2>
+
+            <h3 class="character">
+              <ul>
+                <li>Communication</li>
+                <li>Attention to Detail</li>
+                <li>Never Quit Attitude</li>
+                <li>Rapid Assimilation</li>
+                <li>Collaboration</li>
+              </ul>
+            </h3>
+          </div>
+      </div>
+      </td>
+      </div>
+    </tr>
+  </table>
+
+  <footer class="footerstuff">
+    <form class="formyform">
+      <H1 class=headertext>Sign up</H1>
+      <p>
+          <input type="text" name="Full Name" placeholder="Full Name">    
+      </p>
+      <p>
+          <input type="text" name="email" placeholder="email">
+      </p>
+      <p>
+          <input type="textarea" name="Message" placeholder="Message">
+      </p>
+      <p>
+          <button class="butt2style">Register</button>
+      </p>
+      <p></p>
+      <a href="https:///www.facebook.com"><img src="assets/LinkedIn.jpg" width="45"></a>
+      <a href="http://www.twitter.com"><img src="assets/Resume.jpg" width="43"></a> 
+      <p></p>
+  </div>   
+  </form>
+  </footer>
 </body>
+
 </html>
