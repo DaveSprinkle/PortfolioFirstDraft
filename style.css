@@ -1,19 +1,25 @@
-.header {
-  width: 100%;
-  height: 150px;
-  background-color: rgb(0, 0, 0);
-  position: fixed;
-  left: 0px;
-  top: 0px;
-}
-
 .icon {
   display: inline-block;
   position: absolute;
   top: 0px;
   left: 0px;
   background: transparent;
-  height: 150px;
+  height: 155px;
+}
+
+.header1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 60px;
+  color: white;
+}
+
+.header {
+  width: 100%;
+  height: 160px;
+  background-color: rgb(0, 0, 0);
+  position: fixed;
+  left: 0px;
+  top: 0px;
 }
 
 .titleclass {
@@ -27,8 +33,18 @@
   top: 0px;
 }
 
-.carophotos {
-  height: "150px";
+.developerfont {
+  position: relative;
+  top: -20px;
+  left: 3em;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 36px;
+}
+
+.smclass {
+  position: absolute;
+  right: 10px;
 }
 
 .topnav {
@@ -57,21 +73,21 @@
   color: rgb(0, 0, 0);
 }
 
-
-.smclass {
-  position: absolute;
-  right: 10px;
+.carophotos {
+  height: "150px";
+  box-shadow: -3px 10px 10px rgba(0, 0, 0, 0.781);
 }
 
 .bodycontent {
   text-align: center;
   position: relative;
-  top: 150px;
+  top: 250px;
+  height: 70%;
   background-color: rgb(255, 255, 255);
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-.h2class {
+/*.h2class {
   font-style: italic;
   font-weight: lighter;
   font-size: 24px;
@@ -79,14 +95,9 @@
   position: relative;
   left: 0px;
   top: 250px;
-}
+}*/
 
-.codetext {
-  text-align: left;
-  color: white;
-}
-
-.productpagetables {
+/*.productpagetables {
   text-align: center;
   color: black;
   border: black;
@@ -103,8 +114,7 @@
   top: 10px;
 }
 
-.producttable 
-{
+.producttable {
   border-style: solid;
   border-color: black;
   background-color: rgb(255, 255, 255);
@@ -117,17 +127,11 @@
   margin-right: auto;
   width: 65%;
   color: black;
-}
+}*/
 
-.header1 
-{
-  font-family: "Times New Roman", Times, serif;
-  font-size: 60px;
-  color: white;
-}
 
-.headshot
-{
+
+.headshot {
   position: relative;
   top: -100px;
   right: -50rem;
@@ -147,7 +151,6 @@
 
 .frontpagetable {
   text-align: center;
-
   position: relative;
   top: -75px;
   left: 00px;
@@ -160,15 +163,6 @@
   color: black;
   position: relative;
   top: 10px;
-}
-
-.developerfont {
-  position: relative;
-  top: -20px;
-  left: 3em;
-  color: white;
-  font-family: "Courier New", Courier, monospace;
-  font-size: 36px;
 }
 
 .characterheaders {
@@ -265,76 +259,37 @@
   transition: all 2 ease-in-out;
 }
 
-
-.footerstuff
-{
+.footerstuff {
   position: relative;
-  bottom: 20px; 
-  height: 52px ;
+  bottom: 0px;
+  height: 10%;
   background-color: black;
   color: white;
-
 }
 
-.footersmclass {
-  position: absolute;
-
-  right: 2px;
-  width: 50px;
-  border-radius: 5px;
-}
-
-.footerresumeclass {
-  position: absolute;
-
-  right: 60px;
-  width: 50px;
-  border-radius: 5px;
-}
-
-.copyright
-{
-  color:white;
-  position: absolute;
-  top: -10px;
-  right: 2px;
-}
-
-.footercontact
-{
-  color:white;
-
-
-}
-
-.contactform{
-
-align-content: left;
-width: 350px;
+.contactform {
+  align-content: left;
+  width: 350px;
   border: solid;
-border-color: black;
-border-width: thin;
-margin-left: auto;
-margin-right: auto;
-border-radius: 15px;
-box-shadow: -3px 10px 10px rgba(0, 0, 0, 0.781);
+  border-color: black;
+  border-width: thin;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+  box-shadow: -3px 10px 10px rgba(0, 0, 0, 0.781);
 }
 
-.formtext{
-
-margin-left: 5px;
-text-align: left;
-display: inline;
-margin: 15px;
-
+.formtext {
+  margin-left: 5px;
+  text-align: left;
+  display: inline;
+  margin: 15px;
 }
 
-.aboutheadshot{
+.aboutheadshot {
   padding: 15px;
   margin: 15px;
-  width: 300px;
+  width: 200px;
   float: left;
-box-shadow: -3px 10px 10px rgba(0, 0, 0, 0.781);
-
-
+  box-shadow: -3px 10px 10px rgba(0, 0, 0, 0.781);
 }
