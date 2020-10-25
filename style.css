@@ -185,14 +185,16 @@
 
 .solutionphoto {
   padding: 15px;
+  margin-right: 20px;
   width: 300px;
   float: left;
+  box-shadow: -3px 10px 10px rgba(0, 0, 0, 0.781);
 }
 
 .solutiontext {
   padding: 15px;
   float: right;
-  margin: 10px;
+  margin: 20px;
 }
 
 .solutionbody {
@@ -228,6 +230,7 @@
 }
 
 .buttonmagic {
+  margin-bottom: 15px;
   width: 75px;
   border-style: transparent;
   border-width: 3px;
@@ -241,6 +244,7 @@
 }
 
 .button {
+  margin-bottom: 15px;
   width: 75px;
 }
 
