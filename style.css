@@ -11,12 +11,15 @@
   font-family: "Times New Roman", Times, serif;
   font-size: 60px;
   color: white;
+  text-shadow:-4px 10px 10px rgba(0, 0, 0, 0.932);
 }
 
 .header {
   width: 100%;
   height: 160px;
-  background-color: rgb(0, 0, 0);
+
+  background-image: linear-gradient(to right,black,black, rgb(153, 153, 153));
+  /*background-color: rgb(0, 0, 0);*/
   position: fixed;
   left: 0px;
   top: 0px;
@@ -31,6 +34,7 @@
   position: relative;
   left: 60px;
   top: 0px;
+
 }
 
 .developerfont {
@@ -87,54 +91,11 @@
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-/*.h2class {
-  font-style: italic;
-  font-weight: lighter;
-  font-size: 24px;
-  color: white;
-  position: relative;
-  left: 0px;
-  top: 250px;
-}*/
-
-/*.productpagetables {
-  text-align: center;
-  color: black;
-  border: black;
-  border-style: solid;
-  border-width: 0px, 3px, 3px, 0px;
-  background-color: wheat;
-  font-family: Georgia, "Times New Roman", Times, serif;
-}
-
-.reglartext {
-  font-size: 18px;
-  position: relative;
-  left: 0px;
-  top: 10px;
-}
-
-.producttable {
-  border-style: solid;
-  border-color: black;
-  background-color: rgb(255, 255, 255);
-  border-width: 0px, 3px, 3px, 0px;
-  border-radius: 30px;
-  position: relative;
-  left: 0px;
-  top: 20px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 65%;
-  color: black;
-}*/
-
-
 
 .headshot {
-  position: relative;
-  top: -100px;
-  right: -50rem;
+  position: fixed;
+  top: 50px;
+  right: 35px;
   margin-right: 10px;
   box-shadow: -3px 10px 10px rgba(0, 0, 0, 0.781);
   overflow: hidden;
@@ -152,7 +113,7 @@
 .frontpagetable {
   text-align: center;
   position: relative;
-  top: -75px;
+  top: 35px;
   left: 00px;
   width: 95%;
   margin-left: auto;
@@ -230,7 +191,11 @@
 }
 
 .buttonmagic {
+
+  
   margin-bottom: 15px;
+  margin-left:auto;
+  margin-right: auto; 
   width: 75px;
   border-style: transparent;
   border-width: 3px;
@@ -265,6 +230,7 @@
 
 .footerstuff {
   position: relative;
+  margin-top: 50px;
   bottom: 0px;
   height: 10%;
   background-color: black;
@@ -284,8 +250,10 @@
 }
 
 .formtext {
-  margin-left: 5px;
-  text-align: left;
+  padding: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  /*text-align: left;*/
   display: inline;
   margin: 15px;
 }
